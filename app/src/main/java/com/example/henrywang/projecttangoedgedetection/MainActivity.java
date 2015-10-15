@@ -17,6 +17,10 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
+    public void makeFullScreen(){
+
+    }
+
 //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
 //        // Inflate the menu; this adds items to the action bar if it is present.
