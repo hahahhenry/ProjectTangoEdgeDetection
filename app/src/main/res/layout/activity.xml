@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<Button android:text="Start"-->
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_weight="0.5"
+        android:layout_height="0dp"
+        android:text="Start"
+        android:id="@+id/buttonStart"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:background="#2ecc71"
+        android:textColor="#ecf0f1" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_weight="0.5"
+        android:layout_height="0dp"
+        android:text="Help"
+        android:id="@+id/buttonHelp"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:background="#e74c3c"
+        android:textColor="#ecf0f1"
+        android:onClick="openHelp"/>
+
+</LinearLayout>
